@@ -1,0 +1,167 @@
+body {
+  margin: 0;
+  background-color: black;
+  color: seashell;
+  opacity: 0.9;
+  font-family: Helvetica;
+  font-size: 22px;
+
+}
+
+.main {
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  font-family: helvetica;
+  font-size: 22px;
+  font-weight: bold;
+  position: relative;
+  border-bottom: 1px solid seashell;
+  margin-bottom: 20px;
+  margin-left: 10px
+  margin-right: 10px;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  background-color: black;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.navigation a {
+  margin-right: 20px;
+  border: 1px solid black;
+  flex-wrap: wrap;
+  color: white;
+}
+
+.logo {
+  display: flex;
+  flex-grow: 1;
+  padding-left: 30px;
+}
+
+.logo img {
+  height: 50px;
+  width: auto;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.body {
+
+}
+
+.main {
+    background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+    background-size: 1200px 700px;
+    height: 700px;
+    width: 1200px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.container_top {
+  background-color: black;
+  width: 100%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: center;
+  position: relative;
+}
+
+.container_middle {
+  width: 1000px;
+  text-align: center;
+  position:relative;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.image {
+  height: 200px;
+  width: 300px;
+  align-content: space-between;
+  margin: 10px;
+
+}
+
+.image img {
+
+}
+
+#imgpic {
+  max-width: 100%;
+  max-width: 100%;
+  align-content: space-between;
+
+}
+
+.text {
+  margin: 20px;
+  text-align: center;
+
+}
+
+.image_box_three, .image_box_two {
+  display: flex;
+  justify-content: center;
+}
+
+.nest {
+  display: flex;
+  flex-direction: column;
+  width: 1200px;
+  height: 500px;
+  justify-content:center;
+  align-items: center;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-myrtle-ave.jpg);
+  margin: 0 auto;
+}
+
+.location {
+  width: 300px;
+  height: 300px;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  margin-right: 20px;
+}
+
+.location_head {
+  display: flex;
+}
+
+.location_boxes {
+  display: flex;
+
+}
+.location p {
+  text-align: center;
+}
+
+.location h4 {
+  text-align: center;
+}
+
+.footer_top {
+  display: flex;
+  flex-direction: column;
+  align-items:  center;
+}
+
+.footer_bottom {
+  text-align: left;
+}
+
+.footer {
+  margin: 20px;
+}
